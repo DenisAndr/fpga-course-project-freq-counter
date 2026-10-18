@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="tb_system" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/tb_system/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/sig_in" type="logic">
+      <obj_property name="ElementShortName">sig_in</obj_property>
+      <obj_property name="ObjectShortName">sig_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_awready" type="logic">
+      <obj_property name="ElementShortName">s_awready</obj_property>
+      <obj_property name="ObjectShortName">s_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_awaddr" type="array">
+      <obj_property name="ElementShortName">s_awaddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_awaddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_wready" type="logic">
+      <obj_property name="ElementShortName">s_wready</obj_property>
+      <obj_property name="ObjectShortName">s_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_wdata" type="array">
+      <obj_property name="ElementShortName">s_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_arvalid" type="logic">
+      <obj_property name="ElementShortName">s_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_arready" type="logic">
+      <obj_property name="ElementShortName">s_arready</obj_property>
+      <obj_property name="ObjectShortName">s_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_araddr" type="array">
+      <obj_property name="ElementShortName">s_araddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_araddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_rvalid" type="logic">
+      <obj_property name="ElementShortName">s_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_rready" type="logic">
+      <obj_property name="ElementShortName">s_rready</obj_property>
+      <obj_property name="ObjectShortName">s_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s_rdata" type="array">
+      <obj_property name="ElementShortName">s_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/ip_status" type="logic">
+      <obj_property name="ElementShortName">ip_status</obj_property>
+      <obj_property name="ObjectShortName">ip_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/ip_count" type="array">
+      <obj_property name="ElementShortName">ip_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/n_wr" type="array">
+      <obj_property name="ElementShortName">n_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/n_rd" type="array">
+      <obj_property name="ElementShortName">n_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n_rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/n_status_polls" type="array">
+      <obj_property name="ElementShortName">n_status_polls[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n_status_polls[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/last_ar" type="array">
+      <obj_property name="ElementShortName">last_ar[3:0]</obj_property>
+      <obj_property name="ObjectShortName">last_ar[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/sig_in" type="logic">
+      <obj_property name="ElementShortName">sig_in</obj_property>
+      <obj_property name="ObjectShortName">sig_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="group26" type="group">
+      <obj_property name="label">AXI4-Lite: ЗАПИС (AW, W, B)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_awready" type="logic">
+         <obj_property name="ElementShortName">s_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">s_axi_awaddr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awaddr[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_wready" type="logic">
+         <obj_property name="ElementShortName">s_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_wdata" type="array">
+         <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_bvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_bready" type="logic">
+         <obj_property name="ElementShortName">s_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">AXI4-Lite: ЧИТАННЯ (AR, R)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_arready" type="logic">
+         <obj_property name="ElementShortName">s_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_araddr" type="array">
+         <obj_property name="ElementShortName">s_axi_araddr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_araddr[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_rready" type="logic">
+         <obj_property name="ElementShortName">s_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/s_axi_rdata" type="array">
+         <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group42" type="group">
+      <obj_property name="label">Стан частотоміра</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/inst/window" type="array">
+         <obj_property name="ElementShortName">window[31:0]</obj_property>
+         <obj_property name="ObjectShortName">window[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/inst/win_cnt" type="array">
+         <obj_property name="ElementShortName">win_cnt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">win_cnt[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/inst/edge_cnt" type="array">
+         <obj_property name="ElementShortName">edge_cnt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">edge_cnt[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/inst/count" type="array">
+         <obj_property name="ElementShortName">count[31:0]</obj_property>
+         <obj_property name="ObjectShortName">count[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/inst/busy" type="logic">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_system/dut/design_1_i/freq_counter_0/inst/status" type="logic">
+         <obj_property name="ElementShortName">status</obj_property>
+         <obj_property name="ObjectShortName">status</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
